@@ -21,6 +21,7 @@ Clone the repository
 
 Adjust the values for admin user,pass and email in noninteractive.ini. Don't adjust the other variables unless you know what you are doing. Otherwise building the imagemight fail.
 Then start the build process, this might take a while.
+
     $ docker build -t vvgelder/rhodecode .
  
 ### Start container and expose port 5000
