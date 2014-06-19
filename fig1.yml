@@ -1,0 +1,8 @@
+rhodecode:
+    image: vvgelder/rhodecode
+    volumes: 
+        - "/srv/rhodecode/repos/:/opt/rc/rhodecode/repos"
+        - "/srv/rhodecode/db:/opt/rc/rhodecode/db"
+    ports:
+        - "5000:5000"
+

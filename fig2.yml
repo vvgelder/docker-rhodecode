@@ -1,0 +1,9 @@
+rhodecode:
+    image: vvgelder/rhodecode
+    volumes: 
+        - "/srv/rhodecode/repos/:/opt/rc/rhodecode/repos"
+        - "/srv/rhodecode/db:/opt/rc/rhodecode/db"
+    environment: 
+        VIRTUAL_HOST=rhodecode.example.com
+
+
