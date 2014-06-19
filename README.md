@@ -27,9 +27,11 @@ Go to: http://localhost:5000
 prerequisite: https://github.com/jwilder/nginx-proxy`
 
 Adjust VIRTUAL_HOST= to the hostname that points to your proxy.
+
     $ mkdir -p /srv/rhodecode/repos/ && mkdir /srv/rhodecode/db
     $ mv fig2.yml fig.yml 
     $ fig up -d
+
 Go to: http://<VIRTUAL_HOST>:80
 
 
