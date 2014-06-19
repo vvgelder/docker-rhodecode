@@ -3,9 +3,15 @@ docker container for running rhodecode.
 
 
 ### Requirements:
-docker
-fig
-    $ pip install fig
+- docker
+
+    $ sudo apt-get docker.io 
+    $ ln -s /usr/bin/docker.io /usr/bin/docker
+
+
+- fig
+   
+   $ pip install fig
 
 ### build image:
 Clone the repository
